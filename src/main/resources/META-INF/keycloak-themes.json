@@ -1,0 +1,11 @@
+{
+  "themes": [
+    {
+      "name": "orcid-theme",
+      "types": [
+        "admin",
+        "login"
+      ]
+    }
+  ]
+}
