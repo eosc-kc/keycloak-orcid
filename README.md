@@ -23,7 +23,8 @@ Although ORCID can be configured as an OpenID Connect Identity Provider, the cur
 
 ## Compatibility
 
-Compatible with Keycloak version 18.0.0 .
+Version 1.1.0 is compatible with Keycloak version 18.0.0 .
+Version 1.2.0 is compatible with Keycloak version 22.0.0 .
 
 ## Installation
 
