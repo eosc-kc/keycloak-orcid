@@ -43,7 +43,7 @@ public class OrcidIdentityProvider extends AbstractOAuth2IdentityProvider<OrcidI
 
         String id = getJsonProperty(orcidIdentifier, "path");
 
-        BrokeredIdentityContext user = new BrokeredIdentityContext(id);
+        BrokeredIdentityContext user = new BrokeredIdentityContext(id, getConfig());
         user.setUsername(id);
         JsonNode name = person.get("name");
         if (name!= null && ! name.isNull()) {
@@ -64,8 +64,6 @@ public class OrcidIdentityProvider extends AbstractOAuth2IdentityProvider<OrcidI
             }
         }
         user.setEmail(email);
-
-        user.setIdpConfig(getConfig());
         user.setIdp(this);
 
         AbstractJsonUserAttributeMapper.storeUserProfileForMapper(user, node, getConfig().getAlias());

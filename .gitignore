@@ -17,6 +17,9 @@
 #bin/
 .factorypath
 
+# VSCode #
+##########
+.vscode
 # Maven #
 #########
 target
