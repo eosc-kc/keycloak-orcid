@@ -3,14 +3,14 @@
 
     <groupId>org.keycloak</groupId>
     <artifactId>keycloak-orcid</artifactId>
-    <version>1.4.0</version>
+    <version>1.5.0</version>
     <packaging>jar</packaging>
     <description>ORCID as Social Provider in Keycloak</description>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
-        <keycloak.version>26.0.7</keycloak.version>
+        <keycloak.version>26.4.5</keycloak.version>
     </properties>
 
     <dependencies>
