@@ -28,6 +28,7 @@ Although ORCID can be configured as an OpenID Connect Identity Provider, the cur
 | 1.1.0         | 18.0.0 +         |
 | 1.3.0         | 22.0.0 +         |
 | 1.4.0         | 25.0.0 +         |
+| 1.5.0         | 26.5.0 +         |
 
 ## Installation
 
