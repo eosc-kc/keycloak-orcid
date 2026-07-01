@@ -16,6 +16,7 @@ jobs:
         with:
           java-version: '21'
           distribution: 'adopt'
+          cache: 'maven'
 
       - uses: actions/checkout@v4
 
